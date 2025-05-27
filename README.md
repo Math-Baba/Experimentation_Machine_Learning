@@ -13,7 +13,8 @@ Ce modèle vise à prédire si un bâtiment a une charge de **chauffage** ou **r
 - **Visualisation** de la répartition des classes.
 
 Lien vers le dataset : https://archive.ics.uci.edu/dataset/242/energy+efficiency
-📄 **Code source** : `logits_softmax.py`
+
+**Code source** : `logits_softmax.py`
 
 📝 **Observations** :
 - Le modèle attribue **presque toute la probabilité à la classe chauffage**, indiquant qu’il doit être entraîné pour améliorer ses prédictions.
@@ -29,7 +30,8 @@ Ce script utilise **spaCy** et **NLTK** pour explorer un corpus textuel et en ex
 - **Évaluation de la probabilité d’une phrase** donnée en utilisant un modèle trigramme.
 
 Fichier utilisé : PG.txt
-📄 **Code source** : `proba_corpus.py`
+
+**Code source** : `proba_corpus.py`
 
 📝 **Observations** :
 - Le modèle permet d’analyser la structure probabiliste du langage.
@@ -44,7 +46,7 @@ Ce projet compare une **implémentation manuelle** du classificateur **Naïf Bay
 - **Entraînement et prédiction des classes** sur un dataset de consommation énergétique.
 - **Comparaison des résultats** entre la version manuelle et celle optimisée avec Scikit-Learn.
 
-📄 **Code source** : `prob_bayes.py`
+**Code source** : `prob_bayes.py`
 
 📝 **Observations** :
 - L’implémentation manuelle fonctionne mais **est beaucoup plus lente et sujette aux erreurs**.
@@ -57,7 +59,7 @@ Ce projet explore les **tests ANOVA à un facteur et à deux facteurs**, pour an
 - **ANOVA à un facteur** : teste si X3 ou X6 influencent significativement Y1.
 - **ANOVA à deux facteurs** : analyse l’effet combiné de X3 et X6, et leur éventuelle interaction.
 
-📄 **Code source** : `anova.py`
+**Code source** : `anova.py`
 
 📝 **Observations** :
 - **X3 influence significativement Y1**, mais **X6 et l'interaction X3:X6 n’ont pas d’effet mesurable**.
